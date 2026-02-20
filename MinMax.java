@@ -58,6 +58,8 @@ public class MinMax {
         System.out.println("Minimum: " + findMin(numbers));
         System.out.println("Maximum: " + findMax(numbers));
 
+        int[] result = findminmax(numbers);
+        System .out.println("Maximum and Minimum " + result[0] + " " + result[1]);
         scanner.close();
     }
 }
